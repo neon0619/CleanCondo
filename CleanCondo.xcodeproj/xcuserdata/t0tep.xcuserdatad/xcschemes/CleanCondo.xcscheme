@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE4B5B731D07749600F486F1"
+               BlueprintIdentifier = "EEBF7B431D165D6B0034FF2D"
                BuildableName = "CleanCondo.app"
                BlueprintName = "CleanCondo"
                ReferencedContainer = "container:CleanCondo.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE4B5B871D07749700F486F1"
-               BuildableName = "CleanCondoTests.xctest"
-               BlueprintName = "CleanCondoTests"
-               ReferencedContainer = "container:CleanCondo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE4B5B921D07749700F486F1"
-               BuildableName = "CleanCondoUITests.xctest"
-               BlueprintName = "CleanCondoUITests"
-               ReferencedContainer = "container:CleanCondo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE4B5B731D07749600F486F1"
+            BlueprintIdentifier = "EEBF7B431D165D6B0034FF2D"
             BuildableName = "CleanCondo.app"
             BlueprintName = "CleanCondo"
             ReferencedContainer = "container:CleanCondo.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE4B5B731D07749600F486F1"
+            BlueprintIdentifier = "EEBF7B431D165D6B0034FF2D"
             BuildableName = "CleanCondo.app"
             BlueprintName = "CleanCondo"
             ReferencedContainer = "container:CleanCondo.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE4B5B731D07749600F486F1"
+            BlueprintIdentifier = "EEBF7B431D165D6B0034FF2D"
             BuildableName = "CleanCondo.app"
             BlueprintName = "CleanCondo"
             ReferencedContainer = "container:CleanCondo.xcodeproj">

@@ -7,70 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE0058121D086B2F00D33795 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0058111D086B2F00D33795 /* logo.png */; };
-		EE0058171D0BFEC100D33795 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0058161D0BFEC100D33795 /* HomeViewController.swift */; };
-		EE0058191D0C0DD200D33795 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0058181D0C0DD200D33795 /* LoginViewController.swift */; };
-		EE00581B1D0C165000D33795 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EE00581A1D0C165000D33795 /* left-arrow.png */; };
-		EE4B5B781D07749700F486F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4B5B771D07749700F486F1 /* AppDelegate.swift */; };
-		EE4B5B7D1D07749700F486F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4B5B7B1D07749700F486F1 /* Main.storyboard */; };
-		EE4B5B7F1D07749700F486F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4B5B7E1D07749700F486F1 /* Assets.xcassets */; };
-		EE4B5B821D07749700F486F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4B5B801D07749700F486F1 /* LaunchScreen.storyboard */; };
-		EE4B5B8D1D07749700F486F1 /* CleanCondoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4B5B8C1D07749700F486F1 /* CleanCondoTests.swift */; };
-		EE4B5B981D07749700F486F1 /* CleanCondoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4B5B971D07749700F486F1 /* CleanCondoUITests.swift */; };
+		EEBF7B4D1D165D6C0034FF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7B4B1D165D6C0034FF2D /* Main.storyboard */; };
+		EEBF7B4F1D165D6C0034FF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7B4E1D165D6C0034FF2D /* Assets.xcassets */; };
+		EEBF7B521D165D6C0034FF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7B501D165D6C0034FF2D /* LaunchScreen.storyboard */; };
+		EEBF7B5D1D16727F0034FF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B5B1D16727F0034FF2D /* AppDelegate.swift */; };
+		EEBF7B611D1673030034FF2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B601D1673030034FF2D /* Extensions.swift */; };
+		EEBF7B641D1673330034FF2D /* ConnectionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B631D1673330034FF2D /* ConnectionDetector.swift */; };
+		EEBF7B681D1673AF0034FF2D /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B661D1673AF0034FF2D /* HRToast+UIView.swift */; };
+		EEBF7B691D1673AF0034FF2D /* ToastFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B671D1673AF0034FF2D /* ToastFunction.swift */; };
+		EEBF7B731D1673E80034FF2D /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B6C1D1673E80034FF2D /* EmptySegue.m */; };
+		EEBF7B741D1673E80034FF2D /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B6D1D1673E80034FF2D /* LeftMenuViewController.swift */; };
+		EEBF7B751D1673E80034FF2D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B6E1D1673E80034FF2D /* MenuTableViewCell.swift */; };
+		EEBF7B761D1673E80034FF2D /* MSSlidingPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B701D1673E80034FF2D /* MSSlidingPanelController.m */; };
+		EEBF7B771D1673E80034FF2D /* MSViewControllerSlidingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B721D1673E80034FF2D /* MSViewControllerSlidingPanel.m */; };
+		EEBF7B7A1D16749F0034FF2D /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B791D16749F0034FF2D /* BaseTableViewController.swift */; };
+		EEBF7B8A1D1676440034FF2D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B891D1676440034FF2D /* HomeViewController.swift */; };
+		EEBF7B8D1D16767E0034FF2D /* SignUpItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B8B1D16767E0034FF2D /* SignUpItemController.swift */; };
+		EEBF7B8E1D16767E0034FF2D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B8C1D16767E0034FF2D /* SignUpViewController.swift */; };
+		EEBF7B901D1676B50034FF2D /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B8F1D1676B50034FF2D /* BookingViewController.swift */; };
+		EEBF7B921D1677040034FF2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7B911D1677040034FF2D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EE4B5B891D07749700F486F1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE4B5B6C1D07749600F486F1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE4B5B731D07749600F486F1;
-			remoteInfo = CleanCondo;
-		};
-		EE4B5B941D07749700F486F1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE4B5B6C1D07749600F486F1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE4B5B731D07749600F486F1;
-			remoteInfo = CleanCondo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		EE0058111D086B2F00D33795 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		EE0058161D0BFEC100D33795 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Classes/HomeViewController.swift; sourceTree = "<group>"; };
-		EE0058181D0C0DD200D33795 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/LoginViewController.swift; sourceTree = "<group>"; };
-		EE00581A1D0C165000D33795 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
-		EE4B5B741D07749600F486F1 /* CleanCondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanCondo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE4B5B771D07749700F486F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE4B5B7C1D07749700F486F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE4B5B7E1D07749700F486F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE4B5B811D07749700F486F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE4B5B831D07749700F486F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE4B5B881D07749700F486F1 /* CleanCondoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanCondoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE4B5B8C1D07749700F486F1 /* CleanCondoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanCondoTests.swift; sourceTree = "<group>"; };
-		EE4B5B8E1D07749700F486F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE4B5B931D07749700F486F1 /* CleanCondoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanCondoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE4B5B971D07749700F486F1 /* CleanCondoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanCondoUITests.swift; sourceTree = "<group>"; };
-		EE4B5B991D07749700F486F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBF7B441D165D6C0034FF2D /* CleanCondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanCondo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBF7B4C1D165D6C0034FF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEBF7B4E1D165D6C0034FF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEBF7B511D165D6C0034FF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEBF7B531D165D6C0034FF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBF7B5A1D16727E0034FF2D /* CleanCondo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CleanCondo-Bridging-Header.h"; sourceTree = "<group>"; };
+		EEBF7B5B1D16727F0034FF2D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MainViewController/AppDelegate.swift; sourceTree = "<group>"; };
+		EEBF7B5F1D1673030034FF2D /* CommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonCryptor.h; path = Extensions/CommonCryptor.h; sourceTree = "<group>"; };
+		EEBF7B601D1673030034FF2D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extensions/Extensions.swift; sourceTree = "<group>"; };
+		EEBF7B631D1673330034FF2D /* ConnectionDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionDetector.swift; path = Httpfunctions/ConnectionDetector.swift; sourceTree = "<group>"; };
+		EEBF7B661D1673AF0034FF2D /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HRToast+UIView.swift"; path = "Toast/HRToast+UIView.swift"; sourceTree = "<group>"; };
+		EEBF7B671D1673AF0034FF2D /* ToastFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToastFunction.swift; path = Toast/ToastFunction.swift; sourceTree = "<group>"; };
+		EEBF7B6B1D1673E80034FF2D /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptySegue.h; path = SlideMenuLibrary/EmptySegue.h; sourceTree = "<group>"; };
+		EEBF7B6C1D1673E80034FF2D /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptySegue.m; path = SlideMenuLibrary/EmptySegue.m; sourceTree = "<group>"; };
+		EEBF7B6D1D1673E80034FF2D /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuViewController.swift; path = SlideMenuLibrary/LeftMenuViewController.swift; sourceTree = "<group>"; };
+		EEBF7B6E1D1673E80034FF2D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewCell.swift; path = SlideMenuLibrary/MenuTableViewCell.swift; sourceTree = "<group>"; };
+		EEBF7B6F1D1673E80034FF2D /* MSSlidingPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSlidingPanelController.h; path = SlideMenuLibrary/MSSlidingPanelController.h; sourceTree = "<group>"; };
+		EEBF7B701D1673E80034FF2D /* MSSlidingPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSlidingPanelController.m; path = SlideMenuLibrary/MSSlidingPanelController.m; sourceTree = "<group>"; };
+		EEBF7B711D1673E80034FF2D /* MSViewControllerSlidingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSViewControllerSlidingPanel.h; path = SlideMenuLibrary/MSViewControllerSlidingPanel.h; sourceTree = "<group>"; };
+		EEBF7B721D1673E80034FF2D /* MSViewControllerSlidingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSViewControllerSlidingPanel.m; path = SlideMenuLibrary/MSViewControllerSlidingPanel.m; sourceTree = "<group>"; };
+		EEBF7B791D16749F0034FF2D /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseTableViewController.swift; path = MainViewController/BaseTableViewController.swift; sourceTree = "<group>"; };
+		EEBF7B891D1676440034FF2D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = MainViewController/HomeViewController.swift; sourceTree = "<group>"; };
+		EEBF7B8B1D16767E0034FF2D /* SignUpItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpItemController.swift; path = MainViewController/SignUpItemController.swift; sourceTree = "<group>"; };
+		EEBF7B8C1D16767E0034FF2D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = MainViewController/SignUpViewController.swift; sourceTree = "<group>"; };
+		EEBF7B8F1D1676B50034FF2D /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookingViewController.swift; path = MainViewController/BookingViewController.swift; sourceTree = "<group>"; };
+		EEBF7B911D1677040034FF2D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = MainViewController/LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE4B5B711D07749600F486F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE4B5B851D07749700F486F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE4B5B901D07749700F486F1 /* Frameworks */ = {
+		EEBF7B411D165D6B0034FF2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,78 +68,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE0058131D086B7F00D33795 /* Assets */ = {
+		EEBF7B3B1D165D6B0034FF2D = {
 			isa = PBXGroup;
 			children = (
-				EE00581A1D0C165000D33795 /* left-arrow.png */,
-				EE0058111D086B2F00D33795 /* logo.png */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
-		EE4B5B6B1D07749600F486F1 = {
-			isa = PBXGroup;
-			children = (
-				EE4B5B761D07749700F486F1 /* CleanCondo */,
-				EE4B5B8B1D07749700F486F1 /* CleanCondoTests */,
-				EE4B5B961D07749700F486F1 /* CleanCondoUITests */,
-				EE4B5B751D07749600F486F1 /* Products */,
+				EEBF7B461D165D6C0034FF2D /* CleanCondo */,
+				EEBF7B451D165D6C0034FF2D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE4B5B751D07749600F486F1 /* Products */ = {
+		EEBF7B451D165D6C0034FF2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE4B5B741D07749600F486F1 /* CleanCondo.app */,
-				EE4B5B881D07749700F486F1 /* CleanCondoTests.xctest */,
-				EE4B5B931D07749700F486F1 /* CleanCondoUITests.xctest */,
+				EEBF7B441D165D6C0034FF2D /* CleanCondo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE4B5B761D07749700F486F1 /* CleanCondo */ = {
+		EEBF7B461D165D6C0034FF2D /* CleanCondo */ = {
 			isa = PBXGroup;
 			children = (
-				EE4B5B771D07749700F486F1 /* AppDelegate.swift */,
-				EE0058161D0BFEC100D33795 /* HomeViewController.swift */,
-				EE0058181D0C0DD200D33795 /* LoginViewController.swift */,
-				EE4B5B7B1D07749700F486F1 /* Main.storyboard */,
-				EE4B5B7E1D07749700F486F1 /* Assets.xcassets */,
-				EE4B5B801D07749700F486F1 /* LaunchScreen.storyboard */,
-				EE0058131D086B7F00D33795 /* Assets */,
-				EE4B5B831D07749700F486F1 /* Info.plist */,
+				EEBF7B591D1671BB0034FF2D /* MainViewController */,
+				EEBF7B4B1D165D6C0034FF2D /* Main.storyboard */,
+				EEBF7B4E1D165D6C0034FF2D /* Assets.xcassets */,
+				EEBF7B501D165D6C0034FF2D /* LaunchScreen.storyboard */,
+				EEBF7B651D16733F0034FF2D /* HttpFunctions */,
+				EEBF7B6A1D1673B60034FF2D /* Toast */,
+				EEBF7B781D1673F50034FF2D /* SlideMenuLibrary */,
+				EEBF7B621D1673090034FF2D /* Extensions */,
+				EEBF7B531D165D6C0034FF2D /* Info.plist */,
+				EEBF7B5A1D16727E0034FF2D /* CleanCondo-Bridging-Header.h */,
 			);
 			path = CleanCondo;
 			sourceTree = "<group>";
 		};
-		EE4B5B8B1D07749700F486F1 /* CleanCondoTests */ = {
+		EEBF7B591D1671BB0034FF2D /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EE4B5B8C1D07749700F486F1 /* CleanCondoTests.swift */,
-				EE4B5B8E1D07749700F486F1 /* Info.plist */,
+				EEBF7B5B1D16727F0034FF2D /* AppDelegate.swift */,
+				EEBF7B791D16749F0034FF2D /* BaseTableViewController.swift */,
+				EEBF7B891D1676440034FF2D /* HomeViewController.swift */,
+				EEBF7B8B1D16767E0034FF2D /* SignUpItemController.swift */,
+				EEBF7B8C1D16767E0034FF2D /* SignUpViewController.swift */,
+				EEBF7B911D1677040034FF2D /* LoginViewController.swift */,
+				EEBF7B8F1D1676B50034FF2D /* BookingViewController.swift */,
 			);
-			path = CleanCondoTests;
+			name = MainViewController;
 			sourceTree = "<group>";
 		};
-		EE4B5B961D07749700F486F1 /* CleanCondoUITests */ = {
+		EEBF7B621D1673090034FF2D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				EE4B5B971D07749700F486F1 /* CleanCondoUITests.swift */,
-				EE4B5B991D07749700F486F1 /* Info.plist */,
+				EEBF7B5F1D1673030034FF2D /* CommonCryptor.h */,
+				EEBF7B601D1673030034FF2D /* Extensions.swift */,
 			);
-			path = CleanCondoUITests;
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EEBF7B651D16733F0034FF2D /* HttpFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF7B631D1673330034FF2D /* ConnectionDetector.swift */,
+			);
+			name = HttpFunctions;
+			sourceTree = "<group>";
+		};
+		EEBF7B6A1D1673B60034FF2D /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF7B661D1673AF0034FF2D /* HRToast+UIView.swift */,
+				EEBF7B671D1673AF0034FF2D /* ToastFunction.swift */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		EEBF7B781D1673F50034FF2D /* SlideMenuLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF7B6D1D1673E80034FF2D /* LeftMenuViewController.swift */,
+				EEBF7B6E1D1673E80034FF2D /* MenuTableViewCell.swift */,
+				EEBF7B6B1D1673E80034FF2D /* EmptySegue.h */,
+				EEBF7B6C1D1673E80034FF2D /* EmptySegue.m */,
+				EEBF7B6F1D1673E80034FF2D /* MSSlidingPanelController.h */,
+				EEBF7B701D1673E80034FF2D /* MSSlidingPanelController.m */,
+				EEBF7B711D1673E80034FF2D /* MSViewControllerSlidingPanel.h */,
+				EEBF7B721D1673E80034FF2D /* MSViewControllerSlidingPanel.m */,
+			);
+			name = SlideMenuLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE4B5B731D07749600F486F1 /* CleanCondo */ = {
+		EEBF7B431D165D6B0034FF2D /* CleanCondo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE4B5B9C1D07749700F486F1 /* Build configuration list for PBXNativeTarget "CleanCondo" */;
+			buildConfigurationList = EEBF7B561D165D6C0034FF2D /* Build configuration list for PBXNativeTarget "CleanCondo" */;
 			buildPhases = (
-				EE4B5B701D07749600F486F1 /* Sources */,
-				EE4B5B711D07749600F486F1 /* Frameworks */,
-				EE4B5B721D07749600F486F1 /* Resources */,
+				EEBF7B401D165D6B0034FF2D /* Sources */,
+				EEBF7B411D165D6B0034FF2D /* Frameworks */,
+				EEBF7B421D165D6B0034FF2D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -159,69 +173,29 @@
 			);
 			name = CleanCondo;
 			productName = CleanCondo;
-			productReference = EE4B5B741D07749600F486F1 /* CleanCondo.app */;
+			productReference = EEBF7B441D165D6C0034FF2D /* CleanCondo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		EE4B5B871D07749700F486F1 /* CleanCondoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE4B5B9F1D07749700F486F1 /* Build configuration list for PBXNativeTarget "CleanCondoTests" */;
-			buildPhases = (
-				EE4B5B841D07749700F486F1 /* Sources */,
-				EE4B5B851D07749700F486F1 /* Frameworks */,
-				EE4B5B861D07749700F486F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE4B5B8A1D07749700F486F1 /* PBXTargetDependency */,
-			);
-			name = CleanCondoTests;
-			productName = CleanCondoTests;
-			productReference = EE4B5B881D07749700F486F1 /* CleanCondoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EE4B5B921D07749700F486F1 /* CleanCondoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE4B5BA21D07749700F486F1 /* Build configuration list for PBXNativeTarget "CleanCondoUITests" */;
-			buildPhases = (
-				EE4B5B8F1D07749700F486F1 /* Sources */,
-				EE4B5B901D07749700F486F1 /* Frameworks */,
-				EE4B5B911D07749700F486F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE4B5B951D07749700F486F1 /* PBXTargetDependency */,
-			);
-			name = CleanCondoUITests;
-			productName = CleanCondoUITests;
-			productReference = EE4B5B931D07749700F486F1 /* CleanCondoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE4B5B6C1D07749600F486F1 /* Project object */ = {
+		EEBF7B3C1D165D6B0034FF2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "--=_t0tep_=--";
 				TargetAttributes = {
-					EE4B5B731D07749600F486F1 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					EE4B5B871D07749700F486F1 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = EE4B5B731D07749600F486F1;
-					};
-					EE4B5B921D07749700F486F1 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = EE4B5B731D07749600F486F1;
+					EEBF7B431D165D6B0034FF2D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 66YZ85YQB4;
+						DevelopmentTeamName = "ItOperate Inc";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EE4B5B6F1D07749600F486F1 /* Build configuration list for PBXProject "CleanCondo" */;
+			buildConfigurationList = EEBF7B3F1D165D6B0034FF2D /* Build configuration list for PBXProject "CleanCondo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,102 +203,68 @@
 				en,
 				Base,
 			);
-			mainGroup = EE4B5B6B1D07749600F486F1;
-			productRefGroup = EE4B5B751D07749600F486F1 /* Products */;
+			mainGroup = EEBF7B3B1D165D6B0034FF2D;
+			productRefGroup = EEBF7B451D165D6C0034FF2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE4B5B731D07749600F486F1 /* CleanCondo */,
-				EE4B5B871D07749700F486F1 /* CleanCondoTests */,
-				EE4B5B921D07749700F486F1 /* CleanCondoUITests */,
+				EEBF7B431D165D6B0034FF2D /* CleanCondo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE4B5B721D07749600F486F1 /* Resources */ = {
+		EEBF7B421D165D6B0034FF2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0058121D086B2F00D33795 /* logo.png in Resources */,
-				EE4B5B821D07749700F486F1 /* LaunchScreen.storyboard in Resources */,
-				EE4B5B7F1D07749700F486F1 /* Assets.xcassets in Resources */,
-				EE4B5B7D1D07749700F486F1 /* Main.storyboard in Resources */,
-				EE00581B1D0C165000D33795 /* left-arrow.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE4B5B861D07749700F486F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE4B5B911D07749700F486F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EEBF7B521D165D6C0034FF2D /* LaunchScreen.storyboard in Resources */,
+				EEBF7B4F1D165D6C0034FF2D /* Assets.xcassets in Resources */,
+				EEBF7B4D1D165D6C0034FF2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE4B5B701D07749600F486F1 /* Sources */ = {
+		EEBF7B401D165D6B0034FF2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0058191D0C0DD200D33795 /* LoginViewController.swift in Sources */,
-				EE4B5B781D07749700F486F1 /* AppDelegate.swift in Sources */,
-				EE0058171D0BFEC100D33795 /* HomeViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE4B5B841D07749700F486F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE4B5B8D1D07749700F486F1 /* CleanCondoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE4B5B8F1D07749700F486F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE4B5B981D07749700F486F1 /* CleanCondoUITests.swift in Sources */,
+				EEBF7B681D1673AF0034FF2D /* HRToast+UIView.swift in Sources */,
+				EEBF7B641D1673330034FF2D /* ConnectionDetector.swift in Sources */,
+				EEBF7B611D1673030034FF2D /* Extensions.swift in Sources */,
+				EEBF7B5D1D16727F0034FF2D /* AppDelegate.swift in Sources */,
+				EEBF7B761D1673E80034FF2D /* MSSlidingPanelController.m in Sources */,
+				EEBF7B751D1673E80034FF2D /* MenuTableViewCell.swift in Sources */,
+				EEBF7B8D1D16767E0034FF2D /* SignUpItemController.swift in Sources */,
+				EEBF7B691D1673AF0034FF2D /* ToastFunction.swift in Sources */,
+				EEBF7B8E1D16767E0034FF2D /* SignUpViewController.swift in Sources */,
+				EEBF7B741D1673E80034FF2D /* LeftMenuViewController.swift in Sources */,
+				EEBF7B771D1673E80034FF2D /* MSViewControllerSlidingPanel.m in Sources */,
+				EEBF7B7A1D16749F0034FF2D /* BaseTableViewController.swift in Sources */,
+				EEBF7B921D1677040034FF2D /* LoginViewController.swift in Sources */,
+				EEBF7B731D1673E80034FF2D /* EmptySegue.m in Sources */,
+				EEBF7B901D1676B50034FF2D /* BookingViewController.swift in Sources */,
+				EEBF7B8A1D1676440034FF2D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		EE4B5B8A1D07749700F486F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE4B5B731D07749600F486F1 /* CleanCondo */;
-			targetProxy = EE4B5B891D07749700F486F1 /* PBXContainerItemProxy */;
-		};
-		EE4B5B951D07749700F486F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE4B5B731D07749600F486F1 /* CleanCondo */;
-			targetProxy = EE4B5B941D07749700F486F1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		EE4B5B7B1D07749700F486F1 /* Main.storyboard */ = {
+		EEBF7B4B1D165D6C0034FF2D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE4B5B7C1D07749700F486F1 /* Base */,
+				EEBF7B4C1D165D6C0034FF2D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EE4B5B801D07749700F486F1 /* LaunchScreen.storyboard */ = {
+		EEBF7B501D165D6C0034FF2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE4B5B811D07749700F486F1 /* Base */,
+				EEBF7B511D165D6C0034FF2D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -332,7 +272,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EE4B5B9A1D07749700F486F1 /* Debug */ = {
+		EEBF7B541D165D6C0034FF2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,6 +284,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
@@ -369,16 +310,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EE4B5B9B1D07749700F486F1 /* Release */ = {
+		EEBF7B551D165D6C0034FF2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,6 +332,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
@@ -409,122 +352,68 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		EE4B5B9D1D07749700F486F1 /* Debug */ = {
+		EEBF7B571D165D6C0034FF2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CleanCondo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.CleanCondo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CleanCondo/CleanCondo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EE4B5B9E1D07749700F486F1 /* Release */ = {
+		EEBF7B581D165D6C0034FF2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CleanCondo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.CleanCondo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		EE4B5BA01D07749700F486F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CleanCondoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.CleanCondoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanCondo.app/CleanCondo";
-			};
-			name = Debug;
-		};
-		EE4B5BA11D07749700F486F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CleanCondoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.CleanCondoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanCondo.app/CleanCondo";
-			};
-			name = Release;
-		};
-		EE4B5BA31D07749700F486F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CleanCondoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.CleanCondoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CleanCondo;
-			};
-			name = Debug;
-		};
-		EE4B5BA41D07749700F486F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CleanCondoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.CleanCondoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CleanCondo;
+				SWIFT_OBJC_BRIDGING_HEADER = "CleanCondo/CleanCondo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE4B5B6F1D07749600F486F1 /* Build configuration list for PBXProject "CleanCondo" */ = {
+		EEBF7B3F1D165D6B0034FF2D /* Build configuration list for PBXProject "CleanCondo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE4B5B9A1D07749700F486F1 /* Debug */,
-				EE4B5B9B1D07749700F486F1 /* Release */,
+				EEBF7B541D165D6C0034FF2D /* Debug */,
+				EEBF7B551D165D6C0034FF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE4B5B9C1D07749700F486F1 /* Build configuration list for PBXNativeTarget "CleanCondo" */ = {
+		EEBF7B561D165D6C0034FF2D /* Build configuration list for PBXNativeTarget "CleanCondo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE4B5B9D1D07749700F486F1 /* Debug */,
-				EE4B5B9E1D07749700F486F1 /* Release */,
+				EEBF7B571D165D6C0034FF2D /* Debug */,
+				EEBF7B581D165D6C0034FF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE4B5B9F1D07749700F486F1 /* Build configuration list for PBXNativeTarget "CleanCondoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE4B5BA01D07749700F486F1 /* Debug */,
-				EE4B5BA11D07749700F486F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE4B5BA21D07749700F486F1 /* Build configuration list for PBXNativeTarget "CleanCondoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE4B5BA31D07749700F486F1 /* Debug */,
-				EE4B5BA41D07749700F486F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EE4B5B6C1D07749600F486F1 /* Project object */;
+	rootObject = EEBF7B3C1D165D6B0034FF2D /* Project object */;
 }
