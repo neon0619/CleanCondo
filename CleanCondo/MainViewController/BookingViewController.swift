@@ -15,7 +15,6 @@ class BookingViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
     }
 
 
