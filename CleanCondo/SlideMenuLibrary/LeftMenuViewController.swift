@@ -13,8 +13,6 @@ class LeftMenuViewController: UIViewController {
     
     @IBOutlet var viewController: UIView!
     @IBOutlet weak var menuTableView: UITableView?
-    @IBOutlet weak var topContraint: NSLayoutConstraint!
-    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
 //    let alert = AlertDialogs()
 //    let apiFunction = APIFunction()
     let toast = ToastFunction()
@@ -34,15 +32,15 @@ class LeftMenuViewController: UIViewController {
     var imageCache = [String : UIImage]()
     
     override func viewWillAppear(_ animated: Bool) {
-        //        uiDesign()
+                uiDesign()
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        menuItems = ["Request Credits","Send Credits","Check Balance","Transaction History","Voucher"]
-        menuItemsImages = ["request_credits_icon", "send_credits_icon","check_balance_icon", "transaction_icon","voucher_icon"]
+        menuItems = ["Profile","Booking","Payment","Support","About"]
+        menuItemsImages = ["menu_icon_profile", "menu_icon_booking", "menu_icon_payment", "menu_icon_support","menu_icon_about"]
         
         checkScreenSize()
         
@@ -52,19 +50,19 @@ class LeftMenuViewController: UIViewController {
         if UIDevice.current().userInterfaceIdiom == .phone {
             if UIScreen.main().nativeBounds.height == 960 {
                 print("iPhone 4 or 4S")
-                topContraint.constant = 1
-                bottomConstraint.constant = -3
             }
         }
     }
     
     func uiDesign() {
-        viewController.backgroundColor = UIColor(hex: 0x262626)
-        let image = userImage.data(forKey: "userImage")
-        userImageView.image = UIImage(data: image!)
+//        viewController.backgroundColor = UIColor(hex: 0x000000)
+//        let image = userImage.data(forKey: "userImage")
+//        userImageView.image = UIImage(data: image!)
         //        userImageView.image = UIImage.gifWithName("ajax-loader")
         userImageView.layer.cornerRadius = self.userImageView.frame.width/2.1
         userImageView.layer.masksToBounds = true
+        
+        menuTableView?.contentInset.top = 17
         
         
 //        let realm = try! Realm()
@@ -91,8 +89,8 @@ extension LeftMenuViewController: UITableViewDataSource {
         let cell: MenuTableViewCell = tableView.dequeueReusableCell(withIdentifier: "menuCell") as! MenuTableViewCell
         
         cell.selectedMenuImageView!.isHidden = selectedMenuItemIndex != indexPath.row
-//        cell.itemNameLabel?.text = menuItems[indexPath.row]
-//        cell.itemImageView?.image = UIImage(named: menuItemsImages[indexPath.row])
+        cell.itemNameLabel?.text = menuItems[indexPath.row]
+        cell.itemImageView?.image = UIImage(named: menuItemsImages[indexPath.row])
         
         
         return cell

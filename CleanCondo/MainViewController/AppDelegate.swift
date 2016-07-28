@@ -18,10 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        UINavigationBar.appearance().barTintColor = UIColor(hex: 0xFFFFFF)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor(hex: 0xffffff)]
+        UINavigationBar.appearance().tintColor = UIColor.white()
+        
         
         Fabric.with([Crashlytics.self])
-        
         
         // TODO: Move this to where you establish a user session
         self.logUser()

@@ -47,26 +47,40 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     func appDesign() {
         
+
+        let userNamePaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 8, height: self.userName.frame.height))
+        userName.leftView = userNamePaddingView
+        userName.leftViewMode = UITextFieldViewMode.always
+        
+        
+        let passwordPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 8, height: self.passWord.frame.height))
+        passWord.leftView = passwordPaddingView
+        passWord.leftViewMode = UITextFieldViewMode.always
+        
+        
+        
+        
         if UIDevice.current().userInterfaceIdiom == .phone {
             if UIScreen.main().nativeBounds.height == 480 {
                 print("iPhone Classic")
             }else if UIScreen.main().nativeBounds.height == 960 {
                 
-                nlcLogo.constant = 50
-                nlcEmailAddress.constant = 58
-                nlcBtnSignin.constant = 197
+
                 print("iPhone 4 or 4S")
             }else if UIScreen.main().nativeBounds.height == 1136 {
                 
                 print("iPhone 5 or 5S or 5C")
             }else if UIScreen.main().nativeBounds.height == 1334 {
                 
-                nlcLogo.constant = 95
+                nlcLogo.constant = 66
+                nlcEmailAddress.constant = 71
+                nlcBtnSignin.constant = 78
                 print("iPhone 6")
             }else if UIScreen.main().nativeBounds.height >= 1900 {
                 
-                nlcLogo.constant = 100
-                nlcBtnSignin.constant = 302
+                nlcLogo.constant = 96
+                nlcEmailAddress.constant = 85
+                nlcBtnSignin.constant = 100
                 print("iPhone 6+")
             }else {
                 print(UIScreen.main().nativeBounds.height)
@@ -148,10 +162,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
     
     
 //    @IBAction func loginAction(sender: AnyObject) {

@@ -1560,7 +1560,7 @@ typedef NS_ENUM(NSUInteger, MSSPPanTouchLocation)
         
         if ([[self centerView] frame].origin.x == 0 && [[self delegate] respondsToSelector:@selector(slidingPanelController:beginsToBringOutSide:)])
             [[self delegate] slidingPanelController:self beginsToBringOutSide:side];
-        
+
         if (side == MSSPSideDisplayedLeft)
             animationLength = [self leftPanelMaximumWidth] - [[self centerView] frame].origin.x;
         else

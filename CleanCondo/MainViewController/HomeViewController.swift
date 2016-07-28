@@ -10,14 +10,15 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    
-    @IBOutlet weak var imgLogo: UIImageView!
+
     @IBOutlet weak var nlcLogo: NSLayoutConstraint!
     @IBOutlet weak var nlcSlogan: NSLayoutConstraint!
     @IBOutlet weak var nlcBtnLogin: NSLayoutConstraint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UIApplication.shared().statusBarStyle = .lightContent
         
         appDesign()
 
@@ -31,24 +32,21 @@ class HomeViewController: UIViewController {
                 print("iPhone Classic")
             }else if UIScreen.main().nativeBounds.height == 960 {
                 
-                nlcLogo.constant = 50
-                nlcSlogan.constant = 45
-                nlcBtnLogin.constant = 145
                 print("iPhone 4 or 4S")
             }else if UIScreen.main().nativeBounds.height == 1136 {
                 
                 print("iPhone 5 or 5S or 5C")
             }else if UIScreen.main().nativeBounds.height == 1334 {
                 
-                nlcLogo.constant = 95
-                nlcSlogan.constant = 75
-                nlcBtnLogin.constant = 220
+                nlcLogo.constant = -296
+                nlcSlogan.constant = 55
+                nlcBtnLogin.constant = 100
                 print("iPhone 6")
             }else if UIScreen.main().nativeBounds.height >= 1900 {
 
-                nlcLogo.constant = 100
-                nlcSlogan.constant = 90
-                nlcBtnLogin.constant = 250
+                nlcLogo.constant = -326
+                nlcSlogan.constant = 70
+                nlcBtnLogin.constant = 120
                 print("iPhone 6+")
             }else {
                 print(UIScreen.main().nativeBounds.height)
@@ -56,6 +54,9 @@ class HomeViewController: UIViewController {
             
         } else if UIDevice.current().userInterfaceIdiom == .pad {
             
+            nlcLogo.constant = -426
+            nlcSlogan.constant = 70
+            nlcBtnLogin.constant = 120
             print("iPAd")
             
         }
